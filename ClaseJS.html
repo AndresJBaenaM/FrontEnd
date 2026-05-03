@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <script>
+        //Variables
+        // Scope por bloque, no es redeclarable
+        let c;
+        // El scope de var (alcance) es general para toda la funcion es redeclarabe
+        var b;
+        // No son redeclarables ni reasignables pero si modificables en caso de tener atributos
+        const pi = 3.14;
+    
+        // Tipos de datos
+
+        String
+        Number
+        Boolean
+        Object
+        Array
+        null
+        undefined
+
+        // Funciones
+
+        function saludar(){
+            alert("Holaa!!")
+        }
+
+        // Flecha
+        const sumar = (a,b) => a+b;
+
+        // Condicionales
+        function comprobar(a,b){
+            // Comparacion no estricta por lo tanto esto es cierto
+            if(6=="6"){}
+
+            // Comprobacion estricta incluyendo el tipo, retorna false
+            if(6==="6"){}
+        }
+    </script>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <button onclick="saludar()">Click me!</button>
+</body>
+</html>
